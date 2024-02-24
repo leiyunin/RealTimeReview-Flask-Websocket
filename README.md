@@ -1,4 +1,3 @@
-# README
 # Emulating Firebases: Hotel Reviews Synchronous Forum
 
 ## Table of Contents
