@@ -36,9 +36,21 @@ The following is an example of a document, id=1.
 
 ## Flask Application Implementation
 
+The Flask application provides a web interface for users to query and visualize the hotel reviews data. The application uses the Flask framework and allows users to access various endpoints through a RESTful API.
+
+- [server.py](./code/server.py): The whole RESTful API implementation is accomplished in the Python script, “server.py”. Specifically, we define GET, PUT, PATCH, DELETE, and OrderBy methods under various routes.
 
 ## WebSocket and UI Design Implementation
 
+The project develops a Web application that enables the user to interact with the database and synchronize data.
+
+- [websocket-server.py](./code/websocket-server.py): The Python script implements a WebSocket server that interfaces with a Flask server for CRUD operations on MongoDB, listening on multiple ports and routing different request types to their specific functions.
+
+- [webpage.html](./webpage.html): The webpage.html file is a user interface that allows users to view, add, delete, and filter LA Veranda hotel reviews in real-time. The user interface includes a header containing the name of the hotel, a section for displaying reviews, and forms for adding, removing, and filtering reviews.
+
+### UI Design
+
+The webpage.html file facilitates real-time CRUD operations on a server-side application via WebSocket connections, enabling dynamic interaction for users to submit, delete, and filter reviews. It opens a WebSocket to listen for server-sent review data, displaying it using JSON parsing and the forEach method. Users can submit reviews through a detailed form, delete reviews by ID or all at once, and filter reviews based on specified criteria, with each action communicated to the server through WebSocket connections tailored to the HTTP method. This setup provides a seamless and interactive user experience for managing review data in real-time.
 
 ## Conclusion
 

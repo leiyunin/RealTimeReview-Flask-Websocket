@@ -1,7 +1,5 @@
-#Kerun Quan, Yuning Lei
-#DSCI551 Project: Emulating Firebase
-#2023/3/23
-#FILE: Load.py
+#2023/03/23
+
 
 '''
 This file reads the username of MongoDB in EC2 of the command line input, and store the JSON data

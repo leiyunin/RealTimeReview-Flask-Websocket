@@ -1,8 +1,4 @@
-#Kerun Quan, Yuning Lei
-#DSCI551 Project: Emulating Firebase
-#2023/3/23
-#FILE: conver_csv_Json.py
-
+# 2023/3/23
 
 '''
 This file reads the csv file, "La_Veranda_Reviews-2023-01-16.csv" and convert to the json format. 
